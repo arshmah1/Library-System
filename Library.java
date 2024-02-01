@@ -11,7 +11,6 @@ import java.util.List;
 // `searchByTitle(String title)`: Return a list of books with a matching title.
 // `searchByAuthor(String author)`: Return a list of books by a specific author.
 // `listAvailableBooks()`: List all available books in the library.
-//class Library {
 
 
 
@@ -19,7 +18,7 @@ import java.util.List;
 public class Library{
     private List<Book> books;
 
-    public Library() { //constructor for books
+    public Library() { 
         this.books = new ArrayList<>();
     }
 
